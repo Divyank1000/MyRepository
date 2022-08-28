@@ -1,0 +1,44 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<html>
+<head>
+	<title>Thank you!</title>
+<!-- define some style elements-->
+<style>
+h1
+{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 35px;
+    font-weight : bold;
+	text-align:center;
+	color:navy;
+}
+label
+{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 25px;
+	text-align:center;
+	
+}
+#goback{
+	width:8em;
+	height:4em;
+
+</style>	
+<!-- a helper script for vaidating the form-->
+</head>	
+</head>
+
+<body>
+<h1>Thank you!</h1>
+<p style="text-align:center;color:maroon;font-size:25px">Thank you for submitting the form. We will contact you soon!</p>
+<br>
+<br><center><button id="goback" onclick="goBack()">Go Back</button></center>
+
+</body>
+<script>
+function goBack() {
+    window.history.back()
+}
+</script>
+</html>
